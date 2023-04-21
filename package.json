@@ -11,5 +11,8 @@
     "start": "node index.js"
   },
   "author": "@Russell2259",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "codehs-db": "github:Russell2259/codehs-db"
+  }
 }

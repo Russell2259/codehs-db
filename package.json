@@ -2,7 +2,7 @@
   "name": "codehs-db",
   "version": "1.0.0",
   "description": "An api wraper built using codehs's database system ",
-  "main": "index.js",
+  "main": "lib/index.js",
   "type": "module",
   "files": [
     "lib"

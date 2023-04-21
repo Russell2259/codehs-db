@@ -4,6 +4,9 @@
   "description": "An api wraper built using codehs's database system ",
   "main": "index.js",
   "type": "module",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "start": "node index.js"
   },

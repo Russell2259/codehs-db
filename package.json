@@ -1,0 +1,12 @@
+{
+  "name": "codehs-db",
+  "version": "1.0.0",
+  "description": "An api wraper built using codehs's database system ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "@Russell2259",
+  "license": "ISC"
+}

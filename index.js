@@ -8,7 +8,7 @@ server.on('request', (req, res) => {
     res.end('Forbidden');
 });
 
-const DB = new CodeHS_DB('codehsdb', 'new_database');
+const DB = await CodeHS_DB.init('codehsdb', 'new_database');
 
 DB.on('ready', async () => {
     DB.set('Hello World');

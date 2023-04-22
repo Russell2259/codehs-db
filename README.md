@@ -10,6 +10,7 @@ $ npm install github:Russell2259/codehs-db
 ````
 
 ## Configuration
+A simple example
 ````javascript
 import CodeHS_DB from 'codehs-db';
 
@@ -19,6 +20,6 @@ DB.on('ready', async () => {
   // The tokens have been obtained
   
   DB.set('value'); // Set the value of the database
-  await DB.get(); // Returns a promise with the value of the database
+  console.log(await DB.get()); // Returns a promise with the value of the database
 });
 ````

@@ -14,7 +14,7 @@ A simple example
 ````javascript
 import CodeHS_DB from 'codehs-db';
 
-const DB = new CodeHS_DB.init('codehsdb' /*subdomain.codehs.me*/, 'new_database' /*The name of your database. Acts sort of like a file or a folder. If you are using a more common instance do not anticipate security*/);
+const DB = await CodeHS_DB.init('codehsdb' /*subdomain.codehs.me*/, 'new_database' /*The name of your database. Acts sort of like a file or a folder. If you are using a more common instance do not anticipate security*/);
 
 DB.on('ready', async () => {
   // The tokens have been obtained
